@@ -1,0 +1,74 @@
+
+/* ==============================
+   RESPONSIVE DESIGN
+================================ */
+
+/* Tablets */
+@media (max-width: 1024px) {
+
+    .container {
+        width: 90%;
+        margin: 0 auto;
+    }
+
+    .desktop-showcase {
+        max-width: 90%;
+    }
+
+    .mobile-showcase {
+        max-width: 75%;
+    }
+}
+
+/* Mobile Devices */
+@media (max-width: 768px) {
+
+    body {
+        font-size: 14px;
+    }
+
+    .container {
+        width: 92%;
+    }
+
+    .hero-section {
+        min-height: 100svh;
+        padding: 60px 20px;
+    }
+
+    .hero-title {
+        font-size: clamp(2.5rem, 10vw, 4rem);
+    }
+
+    .desktop-showcase {
+        width: 100%;
+    }
+
+    .mobile-showcase {
+        width: 85%;
+    }
+
+    .contact-form {
+        width: 100%;
+    }
+}
+
+/* Small Mobile Devices */
+@media (max-width: 480px) {
+
+    .hero-title {
+        font-size: 2.5rem;
+    }
+
+    .section-title {
+        font-size: 2rem;
+    }
+
+    .desktop-showcase {
+        width: 100%;
+    }
+
+    .mobile-showcase {
+        width: 95%;
+    }
+}
